@@ -389,6 +389,8 @@ See also,
 ---
 @title[RPC]
 
+### Remote procedure call
+
 > Remote procedure call (RPC) is when a computer program causes a procedure (subroutine) to execute in a different address space (commonly on another computer on a shared network), which is coded as if it were a normal (local) procedure call, without the programmer explicitly coding the details for the remote interaction.
 
 - [RPC wiki](https://en.wikipedia.org/wiki/Remote_procedure_call)
@@ -416,12 +418,16 @@ How could do this?
 ---
 @title[Serialization]
 
+### Serialization
+
 > Serialization is the process of translating data structures or object state into a format that can be stored (for example, in a file or memory buffer) or transmitted (for example, across a network connection link) and reconstructed later (possibly in a different computer environment).
 
 - [Serialization wiki](https://en.wikipedia.org/wiki/Serialization)
 
 ---
 @title[Serialization: Examples]
+
+### Serialization with
 
 - [Base64](https://en.wikipedia.org/wiki/Base64)
 - [XML](https://en.wikipedia.org/wiki/XML)
@@ -433,6 +439,8 @@ How could do this?
 
 ---
 @title[More and more]
+
+### Think more
 
 - What is your domain?
 - How about your expected Packet/Secs or Bandwidth/Secs?
