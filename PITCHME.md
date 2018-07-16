@@ -3,9 +3,7 @@
 ~~Network programming~~  
 ~~TCP/IP programming~~
 
-## The fundamental of Server programming
-
-(Short ver)
+## Server programming Overview
 
 ---
 @title[Table of contents]
