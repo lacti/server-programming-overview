@@ -1,0 +1,21 @@
+.reveal,
+.reveal pre {
+    font-size: 1.6rem;
+}
+.reveal pre {
+  margin: 0;
+}
+.reveal .slides {
+    text-align: left;
+}
+.reveal div.slides section {
+    padding: 2rem;
+}
+.reveal blockquote p {
+  padding: 1rem;
+  margin: 0rem;
+}
+.reveal ul,
+.reveal ol {
+  margin-bottom: 2rem;
+}

@@ -1,0 +1,12 @@
+sequenceDiagram
+  Main-->>Library: Create a selector
+  loop Until end
+    Main-->>Library: Register devices
+    Main-->>Library: Watch them
+    Library-->>Kernel: Watch devices
+    Kernel-->>Library: Find workable device
+    Library-->>Main: Return workable device
+    Main-->>Kernel: Some of IO work
+    Kernel-->>Kernel: IO work with driver
+    Kernel-->>Main: Return a result
+  end

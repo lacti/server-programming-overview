@@ -1,0 +1,6 @@
+sequenceDiagram
+  User-->>Kernel: recv/send with buffer
+  Kernel-->>Kernel: Copy userspace buffer to kernelspace
+  Kernel-->>Device: IO work with kernelspace buffer
+  Kernel-->>User: Check userspace buffer is alive
+  Kernel-->>User: Copy result to userspace buffer

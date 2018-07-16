@@ -1,0 +1,22 @@
+{
+  "name": "server-programming-overview",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "image": "rm -f images/*.png && find images -name \"*.mmd\" -exec mmdc -i {} -o {}.png \\;"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lacti/server-programming-overview.git"
+  },
+  "author": "jaeyoung.choi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lacti/server-programming-overview/issues"
+  },
+  "homepage": "https://github.com/lacti/server-programming-overview#readme",
+  "devDependencies": {
+    "mermaid.cli": "^0.5.1"
+  }
+}
