@@ -139,13 +139,17 @@ acceptNext = accept(acceptSock, sock => {
 How about *async* and *await*?
 
 ```
-while (true) {
-  sock = await accept(acceptSock);
-  while (request = await recv(sock))) {
-    response = process(request);
-    await send(sock, response);
+(async () => {
+  while (true) {
+    sock = await accept(acceptSock);
+    (async () => {
+      while (request = await recv(sock)) {
+        response = process(request);
+        await send(sock, response);
+      }
+    })();
   }
-}
+})();
 ```
 
 ---
