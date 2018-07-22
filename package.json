@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lacti/server-programming-overview.git"
+    "url": "git+https://github.com/v6x/server-programming-overview.git"
   },
   "author": "jaeyoung.choi",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/lacti/server-programming-overview/issues"
+    "url": "https://github.com/v6x/server-programming-overview/issues"
   },
-  "homepage": "https://github.com/lacti/server-programming-overview#readme",
+  "homepage": "https://github.com/v6x/server-programming-overview#readme",
   "devDependencies": {
     "mermaid.cli": "^0.5.1"
   }
